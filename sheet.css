@@ -3,21 +3,27 @@
     background-color:#EDCCB9;
     color: white;}
 
-    #razanali{font-size:30px;color:black;}
+    #razanali{font-size:4rem; color:black;}
+    #full{font-size: large;}
+
     .home{
       background-color: #eff2f7;
+      height: 700px;
+
   }
   .inner{
-      width: 70%;
-      
+      width: 50%;
       padding-top: 2.5rem;
+
   }
   .home-inner{
+  
       display: flex;
-      justify-content: space-between;
+      justify-content:center;
       align-items: center;
       font-family: 'Noto Sans', sans-serif;
       padding-top: 3rem;
+      margin-left: 27rem;
   }
   h2{
       text-align: center;
@@ -30,15 +36,15 @@
   
       #main-img{
       
-        width: 40%;
-        height: 30rem;
+        width: 50%;
         object-fit: cover;
-       object-position: 50% 100%;
+        object-position: 50% 100%;
        
         
     }
     .home-info{
         width: 50%;
+        
     }
     .home-info h1{
         font-size:1rem;
@@ -67,17 +73,17 @@
   
 #education {
     width: 100;
-    background:#9EA8AA;
+    background:white;
     background-clip: content-box;
     text-align:center;
     text-shadow: 2px 2px 5px #EDCCB9;}
 
 .two{
-    background-color:#9EA8AA;
+    background-color:white;
 }
 .flex-education {
     display: flex;
-    background-color: #f1f1f1;
+    background-color:white;
   justify-content: center;
   font-weight: 300;
   }
@@ -97,11 +103,11 @@
 
 
 .three{
-    background-color:#9EA8AA;
+    background-color:#eff2f7;
 }
 .flex-Certificates {
     display: flex;
-    background-color: #f1f1f1;
+    background-color:#eff2f7;
   justify-content: center;
   font-weight: 300;
   }
@@ -118,7 +124,7 @@
   }
   #Certificates{
     width: 100;
-    background:#9EA8AA;
+    background:#eff2f7;
     background-clip: content-box;
     text-align:center;
     text-shadow: 2px 2px 5px #EDCCB9;
@@ -127,25 +133,25 @@
     
 
 .four{
-    background-color:#9EA8AA;}
+    background-color:white;}
     .item1 { grid-area: soft; }
     .item2 { grid-area: tech; }
-    .grid-container {
-      display: grid;
-      grid:
-      'soft soft soft tech tech tech ';
-      grid-gap: 10px;
-      background-color:#9EA8AA;;
+    .flex-container {
+      display: flex;
+      background-color:white;
       background-size: cover;
       padding: 10px;
+    
     }
-    .grid-container > div {
-      background-color: rgba(255, 255, 255, 0.8);
+    .flex-container > div {
+      background-color: white;
       font-size: 20px;
+      flex: 1;
+      justify-content:space-between;
     }
     #skills{
         width: 100;
-        background:#9EA8AA;
+        background:white;
         background-clip: content-box;
         text-align:center;
         text-shadow: 2px 2px 5px #EDCCB9}
@@ -153,15 +159,16 @@
 
 
   
-.five{background-color: #9EA8AA;}
+.five{background-color:#eff2f7;}
+
 #language{
     width: 100;
-    background:#9EA8AA;
+    background:#eff2f7;
     background-clip: content-box;
     text-align:center;
     text-shadow: 2px 2px 5px #EDCCB9;
 }
-hr{background-color:#506B6F ;}
+hr{background-color:#eff2f7;}
 
 
 .lang-container .lang{
@@ -169,7 +176,7 @@ hr{background-color:#506B6F ;}
     justify-content:center;
     flex-direction:row;
     align-items: center;
-    background-color: #f1f1f1;
+    background-color: #eff2f7;
     align-items: center;
     font-size: xx-large;
    
@@ -180,7 +187,7 @@ hr{background-color:#506B6F ;}
     width: 200px;
     border-radius:7px;
 }.lang-container .lang .right-lang .inner-layer{
-    background-color: #3D3D3D;
+    background-color:#d7d9de;
     height: 100%;
     border-radius: inherit;
 
@@ -188,7 +195,7 @@ hr{background-color:#506B6F ;}
 }
 
 .sex{
-    background-color:#9EA8AA;}
+    background-color:white;}
 
 .flex-icon {
     display: flex;
@@ -202,16 +209,15 @@ hr{background-color:#506B6F ;}
  .flex-container {
     display: flex;
     align-items: center;
-  
-    background-color:rgba(255, 255, 255, 0.8);
-    font-size:.7rem;
-    justify-content: space-around;
+    background-color:white;
+    font-size:.4rem;
+    justify-content:last baseline;
     
   }
   
   .flex-container > div {
     width: 100;
-    background:#9EA8AA;
+    background:#eff2f7;
     background-clip: content-box;
     text-align:center;
     text-shadow: 2px 2px 5px #EDCCB9;
@@ -221,7 +227,7 @@ hr{background-color:#506B6F ;}
   
   #referance{
     width: 100;
-    background:#9EA8AA;
+    background:white;
     background-clip: content-box;
     text-align:center;
     text-shadow: 2px 2px 5px #EDCCB9;}
@@ -229,19 +235,17 @@ hr{background-color:#506B6F ;}
   .ref {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 20%;
     text-align: center;
-    justify-content: space-between;
-  
+    width: 40%;
   }
   
   .ref:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   #refpic{
-    margin-top: 1rem;
     width:200px;height:200px; border-radius: 50%;
   }
+
   span{
     color: #fc5c65;
     font-weight:900;
@@ -249,12 +253,11 @@ hr{background-color:#506B6F ;}
   }
    
   footer{
-    background: #f1f1f1;
-    padding: 90px 0;
+    background: #eff2f7;
   }
    
   .footer-container{
-    max-width: 1300px;
+    width:100%;
     margin: auto;
     padding: 0 20px;
     display: flex;
@@ -286,613 +289,3 @@ hr{background-color:#506B6F ;}
 
 
 
-
-  @media only screen and (min-device-width:0px) and (max-device-width:480px){
-  
-#razanali{
-  color:black;
-  font-size:5px}
-    .home{
-      background-color: #eff2f7;
-  }
-  .inner{
-      width: 70%;
-      
-      padding-top: 2.5rem;
-  }
-  .home-inner{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: 'Noto Sans', sans-serif;
-      padding-top: 3rem;
-  }
-  h2{
-      text-align: center;
-      color: #fc5c65;
-      font-family: 'Noto Sans', sans-serif;
-      font-size: 2.5rem;
-      font-weight: 600;
-  
-  }
-  
-      #main-img{
-      
-        width: 40%;
-        height: 30rem;
-        object-fit: cover;
-       object-position: 50% 100%;
-       display:none;
-        
-    }
-    .home-info{
-        width: 50%;
-    }
-    .home-info h1{
-        font-size:1rem;
-        font-weight: 30px;
-        color: black;
-    }
-    .home-info h3{
-        font-size: 1.9rem;
-        font-weight: 400;
-        color: #fc5c65;
-    }
-    .fa-brands{
-        font-size: 2rem;
-        padding: 1rem 0;
-        padding-right: 1rem;
-    }
-    #home-btn{
-        color: white;
-        background-color: #fc5c65;;
-        border: none;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 0.8rem;
-        border-radius: 0.1rem;
-    }
-    
-#education {
-    width: 100;
-    background:#9EA8AA;
-    background-clip: content-box;
-    text-align:center;
-    text-shadow: 2px 2px 5px #EDCCB9;}
-
-.two{
-    background-color:#9EA8AA;
-}
-.flex-education {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #f1f1f1;
-    justify-content: center;
-    align-items:center;
-    font-weight: 300;
-  }
-  
-  .flex-education > div {
-    
-    color:black;
-    width: 60%;
-    line-height: 60px;
-    font-size: 15px;
-    text-align: center;
-    justify-content:center;
-    
-  }
-
-
-
-
-.three{
-    background-color:#9EA8AA;
-}
-
-.flex-Certificates {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: #f1f1f1;
-  justify-content: center;
-  align-items:center;
-  font-weight: 300;
-  }
-  
-  .flex-Certificates > div {
-   
-    color:black;
-    width: 60%;
-    line-height: 60px;
-    font-size: 22px;
-    text-align: center;
-    justify-content:center;
-    
-  }
-  #Certificates{
-    width: 100;
-    padding: 20px;
-    margin-left:40px ;
-    background:#9EA8AA;
-    background-clip: content-box;
-    text-align:center;
-    text-shadow: 2px 2px 5px #EDCCB9;
-}
-
-    
-
-.four{
-    background-color:#9EA8AA;}
-    .item1 { grid-area: soft; }
-    .item2 { grid-area: tech; }
-    .grid-container {
-      display: grid;
-      grid:
-      'soft soft soft soft soft soft'
-      'tech tech tech tech tech tech';
-      grid-gap: 10px;
-      background-color:#9EA8AA;;
-      background-size: cover;
-      padding: 10px;
-    }
-    .grid-container > div {
-      background-color: rgba(255, 255, 255, 0.8);
-      
-      padding: 20px ;
-      font-size: 20px;
-    }
-    #skills{
-        width: 100;
-        padding: 20px;
-        margin-left:15px ;
-        background:#9EA8AA;
-        background-clip: content-box;
-        text-align:center;
-        text-shadow: 2px 2px 5px #EDCCB9}
-    
-
-
-  
-.five{background-color: #9EA8AA;}
-#language{
-    width: 100;
-    padding: 20px;
-    margin-left:40px ;
-    background:#9EA8AA;
-    background-clip: content-box;
-    text-align:center;
-    text-shadow: 2px 2px 5px #EDCCB9;
-
-}
-hr{background-color:#506B6F ;}
-
-
-.lang-container .lang{
-    display: flex;
-    justify-content:center;
-    flex-direction:row;
-    align-items: center;
-    background-color: #f1f1f1;
-    align-items: center;
-    font-size: xx-large;
-   
-}
-.lang-container .lang .right-lang .outer-layer{
-    background-color: #BBBBBB;
-    height:7px;
-    width: 200px;
-    border-radius:7px;
-}.lang-container .lang .right-lang .inner-layer{
-    background-color: #3D3D3D;
-    height: 100%;
-    border-radius: inherit;
-
-
-}
-
-.sex{
-    background-color:#9EA8AA;}
-
-#referance{
-    width: 100;
-    padding: 20px;
-    margin-left:40px ;
-    background:#9EA8AA;
-    background-clip: content-box;
-    text-align:center;
-    text-shadow: 2px 2px 5px #EDCCB9;}
-    
-
-.flex-icon {
-    display: flex;
-  }
-  
-  .flex-icon > div {
-    font-size: 30px;
-    
-  border-bottom: 3px solid black;
-  }
- .flex-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color:rgba(255, 255, 255, 0.8);
-    
-  }
-  
-  .flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: .8rem;
-    justify-content: center;
-    text-align: center;
-  
-    width: 100%;
-  }
-  .ref {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 25%;
-    text-align: center;
-  }
-  
-  .ref:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-  #refpic{
-    margin-top: 1rem;
-    width:200px;height:200px; border-radius: 50%;
-  }
-  span{
-    color: #fc5c65;
-    font-weight:900;
-   
-  }
-   
-  footer{
-    background: #f1f1f1;
-    padding: 90px 0;
-  }
-   
-  .footer-container{
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-  }
-   
-  .social-media{
-    margin: 20px 0;
-  }
-   
-  .social-media a{
-    color: #001a21;
-    margin-right: 25px;
-    font-size: 22px;
-    text-decoration: none;
-    transition: .3s linear;
-  }
-   
-  .social-media a:hover{
-    color: #fc5c65;
-  }
-   
-  .right-col h1{
-    font-size: 26px;
-  }
-   
-  .border{
-    width: 100px;
-    height: 4px;
-    background: #fc5c65;
-  }
-  
-
-  } 
-  @media only screen and (min-device-width:481px) and (max-device-width:768px)
-  {
-    
-    #razanali{font-size:30px;color:black;}
-    
-    .home{
-      background-color: #eff2f7;
-  }
-  .inner{
-      width: 70%;
-      
-      padding-top: 2.5rem;
-  }
-  .home-inner{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: 'Noto Sans', sans-serif;
-      padding-top: 3rem;
-  }
-  h2{
-      text-align: center;
-      color: #fc5c65;
-      font-family: 'Noto Sans', sans-serif;
-      font-size: 2.5rem;
-      font-weight: 600;
-  
-  }
-  
-      #main-img{
-      
-        width: 40%;
-        height: 30rem;
-        object-fit: cover;
-       object-position: 50% 100%;
-       
-        
-    }
-    .home-info{
-        width: 50%;
-    }
-    .home-info h1{
-        font-size:1rem;
-        font-weight: 30px;
-        color: black;
-    }
-    .home-info h3{
-        font-size: 1.9rem;
-        font-weight: 400;
-        color: #fc5c65;
-    }
-    .fa-brands{
-        font-size: 2rem;
-        padding: 1rem 0;
-        padding-right: 1rem;
-    }
-    #home-btn{
-        color: white;
-        background-color: #fc5c65;;
-        border: none;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 0.8rem;
-        border-radius: 0.1rem;
-    }
-    
-    #education {
-        width: 100;
-        padding: 20px;
-        margin-left:40px ;
-        background:#9EA8AA;
-        background-clip: content-box;
-        text-align:center;
-        text-shadow: 2px 2px 5px #EDCCB9;}
-    
-    .two{
-        background-color:#9EA8AA;
-    }
-    .flex-education {
-        display: flex;
-        background-color: #f1f1f1;
-      justify-content: center;
-      font-weight: 300;
-      }
-      
-      .flex-education > div {
-        
-        color:black;
-        width: 60%;
-        line-height: 60px;
-        font-size: 22px;
-        text-align: center;
-        justify-content:center;
-        
-      }
-    
-    
-    
-    
-    .three{
-        background-color:#9EA8AA;
-    }
-    .flex-Certificates {
-        display: flex;
-        background-color: #f1f1f1;
-      justify-content: center;
-      font-weight: 300;
-      }
-      
-      .flex-Certificates > div {
-       
-        color:black;
-        width: 60%;
-        line-height: 60px;
-        font-size: 22px;
-        text-align: center;
-        justify-content:center;
-        
-      }
-      #Certificates{
-        width: 100;
-        padding: 20px;
-        margin-left:40px ;
-        background:#9EA8AA;
-        background-clip: content-box;
-        text-align:center;
-        text-shadow: 2px 2px 5px #EDCCB9;
-    }
-    
-        
-    
-    .four{
-        background-color:#9EA8AA;}
-        .item1 { grid-area: soft; }
-        .item2 { grid-area: tech; }
-        .grid-container {
-          display: grid;
-          grid:
-          'soft soft soft tech tech tech ';
-          grid-gap: 10px;
-          background-color:#9EA8AA;;
-          background-size: cover;
-          padding: 10px;
-        }
-        .grid-container > div {
-          background-color: rgba(255, 255, 255, 0.8);
-          
-          padding: 20px ;
-          font-size: 20px;
-        }
-        #skills{
-            width: 100;
-            padding: 20px;
-            margin-left:15px ;
-            background:#9EA8AA;
-            background-clip: content-box;
-            text-align:center;
-            text-shadow: 2px 2px 5px #EDCCB9}
-        
-    
-    
-      
-    .five{background-color: #9EA8AA;}
-    #language{
-        width: 100;
-        padding: 20px;
-        margin-left:40px ;
-        background:#9EA8AA;
-        background-clip: content-box;
-        text-align:center;
-        text-shadow: 2px 2px 5px #EDCCB9;
-    
-    }
-    hr{background-color:#506B6F ;}
-    
-    
-    .lang-container .lang{
-        display: flex;
-        justify-content:center;
-        flex-direction:row;
-        align-items: center;
-        background-color: #f1f1f1;
-        align-items: center;
-        font-size: xx-large;
-       
-    }
-    .lang-container .lang .right-lang .outer-layer{
-        background-color: #BBBBBB;
-        height:7px;
-        width: 200px;
-        border-radius:7px;
-    }.lang-container .lang .right-lang .inner-layer{
-        background-color: #3D3D3D;
-        height: 100%;
-        border-radius: inherit;
-    
-    
-    }
-    
-    .sex{
-        background-color:#9EA8AA;}
-    
-    #referance{
-        width: 100;
-        padding: 20px;
-        margin-left:40px ;
-        background:#9EA8AA;
-        background-clip: content-box;
-        text-align:center;
-        text-shadow: 2px 2px 5px #EDCCB9;}
-        
-  
-        #refpic{
-          margin-top: 1rem;
-          width:100px;height:100px; border-radius: 50%;
-        }
-    .flex-icon {
-        display: flex;
-      }
-      
-      .flex-icon > div {
-        font-size: 30px;
-        
-      border-bottom: 3px solid black;
-      }
-     .flex-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color:rgba(255, 255, 255, 0.8);
-        
-      }
-      
-      .flex-container > div {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #f1f1f1;
-        margin: 10px;
-        padding: 20px;
-        font-size: .8rem;
-        justify-content: center;
-        text-align: center;
-        margin-inline:80px;
-      }
-      .ref {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 25%;
-        text-align: center;
-      }
-      
-      .ref:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
-    
-      span{
-        color: #fc5c65;
-        font-weight:900;
-       
-      }
-       
-      footer{
-        background: #f1f1f1;
-        padding: 90px 0;
-      }
-       
-      .footer-container{
-        max-width: 800px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap-reverse;
-      }
-       
-      .social-media a{
-        color: #001a21;
-        font-size: 22px;
-        text-decoration: none;
-        transition: .3s linear;
-      }
-       
-      .social-media a:hover{
-        color: #fc5c65;
-      }
-       
-      .right-col h1{
-        font-size: 20px;
-      }
-       
-      .border{
-        width: 100px;
-        height: 4px;
-        background: #fc5c65;
-      }
-      
-    
-      } 
-
-  
